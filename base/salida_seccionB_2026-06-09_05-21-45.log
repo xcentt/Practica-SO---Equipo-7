@@ -1,0 +1,170 @@
+===================================================
+Registro automatizado - Comandos Sección B
+Fecha y hora de ejecución: Tue Jun  9 05:21:45 AM UTC 2026
+===================================================
+
+1. Salida de /proc/devices (Major numbers registrados):
+Character devices:
+  1 mem
+  4 /dev/vc/0
+  4 tty
+  4 ttyS
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+  5 ttyprintk
+  6 lp
+  7 vcs
+ 10 misc
+ 13 input
+ 21 sg
+ 29 fb
+ 89 i2c
+ 99 ppdev
+108 ppp
+116 alsa
+128 ptm
+136 pts
+180 usb
+189 usb_device
+202 cpu/msr
+204 ttyMAX
+226 drm
+240 hidraw
+241 ttyDBC
+242 bsg
+243 watchdog
+244 remoteproc
+245 ptp
+246 pps
+247 rtc
+248 dma_heap
+249 dax
+250 dimmctl
+251 ndctl
+252 tpm
+253 pwm
+254 gpiochip
+261 accel
+
+Block devices:
+  7 loop
+  8 sd
+  9 md
+ 11 sr
+ 65 sd
+ 66 sd
+ 67 sd
+ 68 sd
+ 69 sd
+ 70 sd
+ 71 sd
+128 sd
+129 sd
+130 sd
+131 sd
+132 sd
+133 sd
+134 sd
+135 sd
+252 device-mapper
+253 virtblk
+254 mdp
+259 blkext
+
+2. Salida de /proc/ioports (Puertos de E/S asignados):
+0000-0000 : PCI Bus 0000:00
+  0000-0000 : dma1
+  0000-0000 : pic1
+  0000-0000 : timer0
+  0000-0000 : timer1
+  0000-0000 : keyboard
+  0000-0000 : keyboard
+  0000-0000 : rtc_cmos
+    0000-0000 : rtc0
+  0000-0000 : dma page reg
+  0000-0000 : pic2
+  0000-0000 : dma2
+  0000-0000 : fpu
+  0000-0000 : 0000:00:01.1
+    0000-0000 : ata_piix
+  0000-0000 : 0000:00:01.1
+    0000-0000 : ata_piix
+  0000-0000 : 0000:00:01.1
+    0000-0000 : ata_piix
+  0000-0000 : vga+
+  0000-0000 : 0000:00:01.1
+    0000-0000 : ata_piix
+0000-0000 : PCI conf1
+0000-0000 : PCI Bus 0000:00
+  0000-0000 : 0000:00:07.0
+    0000-0000 : ACPI PM1a_EVT_BLK
+    0000-0000 : ACPI PM1a_CNT_BLK
+    0000-0000 : ACPI PM_TMR
+    0000-0000 : ACPI GPE0_BLK
+  0000-0000 : 0000:00:07.0
+    0000-0000 : piix4_smbus
+  0000-0000 : 0000:00:01.1
+    0000-0000 : ata_piix
+  0000-0000 : 0000:00:02.0
+    0000-0000 : vmwgfx probe
+  0000-0000 : 0000:00:03.0
+  0000-0000 : 0000:00:04.0
+  0000-0000 : 0000:00:05.0
+    0000-0000 : Intel 82801AA-ICH
+  0000-0000 : 0000:00:05.0
+    0000-0000 : Intel 82801AA-ICH
+  0000-0000 : 0000:00:08.0
+    0000-0000 : e1000
+  0000-0000 : 0000:00:0d.0
+    0000-0000 : ahci
+  0000-0000 : 0000:00:0d.0
+    0000-0000 : ahci
+  0000-0000 : 0000:00:0d.0
+    0000-0000 : ahci
+  0000-0000 : 0000:00:0d.0
+    0000-0000 : ahci
+  0000-0000 : 0000:00:0d.0
+    0000-0000 : ahci
+
+3. Salida de /proc/iomem (Rangos de memoria asignados):
+00000000-00000000 : Reserved
+00000000-00000000 : System RAM
+00000000-00000000 : Reserved
+00000000-00000000 : PCI Bus 0000:00
+00000000-00000000 : Video ROM
+00000000-00000000 : Adapter ROM
+00000000-00000000 : Reserved
+  00000000-00000000 : System ROM
+00000000-00000000 : System RAM
+  00000000-00000000 : Kernel code
+  00000000-00000000 : Kernel rodata
+  00000000-00000000 : Kernel data
+  00000000-00000000 : Kernel bss
+00000000-00000000 : ACPI Tables
+00000000-00000000 : PCI Bus 0000:00
+  00000000-00000000 : 0000:00:02.0
+    00000000-00000000 : vmwgfx probe
+  00000000-00000000 : 0000:00:02.0
+    00000000-00000000 : vmwgfx probe
+  00000000-00000000 : 0000:00:03.0
+    00000000-00000000 : virtio-pci-modern
+  00000000-00000000 : 0000:00:04.0
+    00000000-00000000 : vboxguest
+  00000000-00000000 : 0000:00:04.0
+  00000000-00000000 : 0000:00:06.0
+    00000000-00000000 : ohci_hcd
+  00000000-00000000 : 0000:00:08.0
+    00000000-00000000 : e1000
+  00000000-00000000 : 0000:00:0b.0
+    00000000-00000000 : ehci_hcd
+  00000000-00000000 : 0000:00:0d.0
+    00000000-00000000 : ahci
+00000000-00000000 : Reserved
+  00000000-00000000 : IOAPIC 0
+00000000-00000000 : Reserved
+00000000-00000000 : Reserved
+00000000-00000000 : System RAM
+
+===================================================
+Ejecución finalizada correctamente.
