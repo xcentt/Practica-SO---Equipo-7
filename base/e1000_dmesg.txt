@@ -1,0 +1,7 @@
+[    1.276014] e1000: Intel(R) PRO/1000 Network Driver
+[    1.276018] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[    1.760145] e1000 0000:00:08.0 eth0: (PCI:33MHz:32-bit) 08:00:27:2d:ad:88
+[    1.760160] e1000 0000:00:08.0 eth0: Intel(R) PRO/1000 Network Connection
+[    1.774030] e1000 0000:00:08.0 enp0s8: renamed from eth0
+[   11.265539] Modules linked in: i2c_piix4 drm_ttm_helper vboxguest(OE) polyval_clmulni ttm i2c_smbus ghash_clmulni_intel joydev aesni_intel input_leds serio_raw mac_hid binfmt_misc sch_fq_codel msr parport_pc ppdev lp parport efi_pstore nfnetlink dmi_sysfs ip_tables x_tables autofs4 hid_generic usbhid hid vga16fb ahci video vgastate wmi psmouse e1000 libahci pata_acpi
+[   25.396294] e1000: enp0s8 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX

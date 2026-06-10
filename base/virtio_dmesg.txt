@@ -1,0 +1,1 @@
+[    1.250230] virtio_net virtio0 enp0s3: renamed from eth0
